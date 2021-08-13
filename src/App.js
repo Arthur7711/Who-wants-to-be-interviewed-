@@ -1,9 +1,9 @@
-import WhatWhereWhen from "./whatWhereWhen/WhatWhereWhen";
+import Milioner from "./Milioner/Milioner";
 
 function App() {
   return (
     <>
-      <WhatWhereWhen />
+      <Milioner />
     </>
   );
 }
