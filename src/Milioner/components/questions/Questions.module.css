@@ -1,0 +1,8 @@
+.questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(25% 30%, 75% 30%, 100% 50%, 75% 70%, 25% 70%, 0% 50%);
+  background-color: #328cd1;
+  height: 200px;
+}

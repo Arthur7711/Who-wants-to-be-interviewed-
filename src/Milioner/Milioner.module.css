@@ -1,0 +1,12 @@
+.parentMilioner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  font-size: 25px;
+}
+.milioner {
+  border: 2px solid #ccc;
+  width: 500px;
+}

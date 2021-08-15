@@ -5,7 +5,7 @@ export default function Answers({ item }) {
   return (
     <div className={styles.answers}>
       {item.answers.map((el, i) => (
-        <div key={i}>
+        <div key={i} className={styles.answer}>
           <p>{el}</p>
         </div>
       ))}
