@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Questions from "./components/questions/Questions";
 import Answers from "./components/answers/Answers";
-import styles from "./Milioner.module.css";
 import AnswersQuestions from "./anssersQuestions/AnssersQuestions";
+import styles from "./Milioner.module.css";
 
 export default function Milioner() {
   const [questionNum, setQuestionNum] = useState(0);
@@ -11,8 +11,8 @@ export default function Milioner() {
   const trueAnswer = (id) => {
     if (id === data.trueAnswerIndex) {
       console.log(true);
-      setQuestionNum(questionNum + 1);
-      setData(questionNum);
+      setQuestionNum(Math.floor(Math.random() * 15));
+      setData(AnswersQuestions[questionNum]);
       console.log(questionNum);
     } else {
       console.log("you lose this game");
