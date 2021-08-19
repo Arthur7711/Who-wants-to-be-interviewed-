@@ -2,8 +2,8 @@ import { useState } from "react";
 import Questions from "./components/questions/Questions";
 import Answers from "./components/answers/Answers";
 import AnswersQuestions from "./anssersQuestions/AnssersQuestions";
-import styles from "./Milioner.module.css";
 import Bank from "./components/bank/Bank";
+import styles from "./Milioner.module.css";
 
 export default function Milioner() {
   const [questionNum, setQuestionNum] = useState(0);

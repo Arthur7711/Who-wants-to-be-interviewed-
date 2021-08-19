@@ -1,3 +1,5 @@
 .bank {
-  color: brown;
+  background-color: blue;
+  padding: 16px;
+  border-radius: 50%;
 }
