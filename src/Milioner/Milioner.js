@@ -11,20 +11,16 @@ export default function Milioner() {
   const [point, setPoint] = useState(0);
 
   const trueAnswer = (id) => {
-    //ushacnuma 1 qayl gorcoxutyunnern
-    if (id === data.trueAnswerIndex) {
-      console.log(true);
+    if (id === data.trueAnswerIndex ) {
+      console.log(questionNum);
       setQuestionNum((prevNum) => prevNum + 1);
       setPoint((prevPoint) => prevPoint + 1);
-
-      console.log(questionNum);
     } else {
       setPoint(0);
       setQuestionNum(0);
-      console.log("you lose this game");
     }
   };
-  
+
   useEffect(() => {
     setData(AnswersQuestions[questionNum]);
   }, [questionNum]);
