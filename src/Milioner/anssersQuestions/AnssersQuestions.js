@@ -2,7 +2,7 @@ const AnswersQuestions = [
   {
     question:
       "Which of the following would be correct way to read the 'age' property of a 'person' object ?",
-    answers: ["person::age", "person['age']", "person.age", "person_age"],
+    answers: ["person::age", "person[age]", "person.age", "person_age"],
     trueAnswerIndex: 2,
   },
   {
@@ -19,7 +19,7 @@ const AnswersQuestions = [
       "undefined undefined",
       "function undefined",
     ],
-    trueAnswerIndex: 0,
+    trueAnswerIndex: 3,
   },
   {
     question:
@@ -93,6 +93,11 @@ const AnswersQuestions = [
   {
     question: "What datatype does local storage accept",
     answers: ["String", "Number", "Object", "Function"],
+    trueAnswerIndex: 0,
+  },
+  {
+    question: "Congratulations,You Win!!!",
+    answers: [],
     trueAnswerIndex: 0,
   },
 ];
